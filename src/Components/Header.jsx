@@ -46,10 +46,36 @@ const Logo = styled.span`
 `
 
 const Search = styled.div`
-    
+    opacity: 1;
+    flex-grow: 1;
+    position: relative;
+    & > div{
+        max-width: 280px;
+        input{
+            border: none;
+            box-shadow: none;
+            background-color: #eef3f8;
+            border-radius: 2px;
+            width: 240px;
+            padding: 0 8px 0 40px;
+            line-height: 1.75;
+            font-weight: 500;
+            font-size: 14px;
+            height: 34px;
+            border-color: #dce6f1;
+            vertical-align: text-top;
+        }
+    }
 `
 const SearchIcon = styled.div`
-    
+    width: 40px;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 
